@@ -4,7 +4,7 @@
 IPPUB=$(curl -s icanhazip.com)
 IPPRV=$(hostname -I)
 ROU=$(ip route | grep default)
-ISPC=$(curl -s https://iplist.cc/api)
+ISPC=$(curl -s https://api.seeip.org/geoip)
 
 # for bold font
 BOLD="\e[1m"
